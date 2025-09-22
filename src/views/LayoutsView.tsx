@@ -47,6 +47,7 @@ export default function LayoutsView() {
             ))}
           </div>
         </div>
+         
       </section>
     </div>
   );

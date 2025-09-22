@@ -14,7 +14,7 @@ export default function HomeContent() {
           viewBox="0 0 841.9 595.3"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g fill="#61DAFB">
+          <g fill="#64181cff">
             <path d="M421 296.5c0-25.6 20.8-46.4 46.4-46.4s46.4 20.8 46.4 46.4-20.8 46.4-46.4 46.4-46.4-20.8-46.4-46.4z"/>
             <path d="M421 183.5c-68.7 0-124.5 55.8-124.5 124.5s55.8 124.5 124.5 124.5 124.5-55.8 124.5-124.5S489.7 183.5 421 183.5zm0 219.8c-52.6 0-95.3-42.7-95.3-95.3s42.7-95.3 95.3-95.3 95.3 42.7 95.3 95.3-42.7 95.3-95.3 95.3z"/>
           </g>
@@ -33,9 +33,13 @@ export default function HomeContent() {
           </button>
           <button className="border border-indigo-600 text-indigo-600 bg-white px-6 py-3 rounded-2xl hover:bg-indigo-600 hover:text-white transition">
             Ver más
-          </button>
+          </button>          
         </div>
       </motion.div>
+        <footer className="mt-auto bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-center py-4 /n">
+            © {new Date().getFullYear()} Diery Valencia
+          </footer>
     </div>
+    
   );
 }
