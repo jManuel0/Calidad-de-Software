@@ -14,6 +14,7 @@ import ValidContrasena from "../views/ValidContrasena";
 import ContadorClics from "../views/ContadorClics";
 import ListaTareas from "../views/ListaTareas";
 import NumAleatorioView from "../views/NumAleatorioView";
+import ShoppingCartView from "../views/ShoppingCartView";
 
 export default function AppRoutes() {
   return (
@@ -31,6 +32,7 @@ export default function AppRoutes() {
         <Route path="contadorclics" element={<ContadorClics />} />
         <Route path="listareas" element={<ListaTareas />} />
         <Route path="numaleatorio" element={<NumAleatorioView />} />
+        <Route path="shoppingcart" element={<ShoppingCartView />} />
       </Route>
     </Routes>
   );
