@@ -2,14 +2,14 @@
 
 export default function LayoutsView() {
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 ">
       {/* A) Container básico */}
       <section className="bg-slate-50 dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800">
         <div className="container mx-auto px-4 py-6">
           <h2 className="text-xl md:text-2xl font-semibold text-slate-800 dark:text-slate-100">
             Container básico
           </h2>
-          <p className="mt-2 text-slate-600 dark:text-slate-300">
+          <p className="mt-2 text-slate-600 dark:text-slate-300 ">
             Usa <code>container mx-auto px-4</code> para crear secciones centradas
             con padding lateral responsivo.
           </p>
@@ -46,8 +46,7 @@ export default function LayoutsView() {
               </div>
             ))}
           </div>
-        </div>
-         
+        </div>            
       </section>
     </div>
   );
