@@ -1,13 +1,19 @@
+// hook useState permite majenar el estado del componente
 import React, { useState } from 'react';
 
+//definimos el componente
 const NumAleatorio: React.FC = () => {
-  const [randomNumber, setRandomNumber] = useState<number | null>(null);
+  const [randomNumber, setRandomNumber] = useState<number | null>(null); // Estado del componente
+
+  //funcion para generar numero aleatorio
 
   const generateRandomNumber = () => {
     const number = Math.floor(Math.random() * 100) + 1;
     setRandomNumber(number);
   };
 
+  //retornamos el componente.     Tailwind CSS 
+  
   return (
     <div className="flex flex-col items-center justify-center p-4">
       <h2 className="text-2xl font-bold mb-4">Generador de Números Aleatorios</h2>
