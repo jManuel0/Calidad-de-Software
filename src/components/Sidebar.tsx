@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { FaHome, FaCube, FaColumns, FaMicrophone, FaShapes, FaCalculator, FaRuler, FaKey, FaMouse, FaList, FaDiceSix, FaShoppingCart } from "react-icons/fa";
+import { FaHome, FaCube, FaColumns, FaMicrophone, FaShapes, FaCalculator, FaRuler, FaKey, FaMouse, FaList, FaDiceSix, FaShoppingCart, FaStar } from "react-icons/fa";
 
 interface SidebarItem {
   label: string;
@@ -24,6 +24,7 @@ const exerciseItems: SidebarItem[] = [
   { label: "Lista de Tareas", route: "/listareas", icon: <FaList /> },
   { label: "Generador de Números Aleatorios", route: "/numaleatorio", icon: <FaDiceSix /> },
   { label: "Carrito de Compras", route: "/shoppingcart", icon: <FaShoppingCart /> },
+  { label: "Encuesta de Satisfacción", route: "/survey", icon: <FaStar /> },
 ];
 
 export default function Sidebar() {

@@ -15,6 +15,7 @@ import ContadorClics from "../views/ContadorClics";
 import ListaTareas from "../views/ListaTareas";
 import NumAleatorioView from "../views/NumAleatorioView";
 import ShoppingCartView from "../views/ShoppingCartView";
+import SurveyView from "../views/SurveyView";
 
 export default function AppRoutes() {
   return (
@@ -33,6 +34,7 @@ export default function AppRoutes() {
         <Route path="listareas" element={<ListaTareas />} />
         <Route path="numaleatorio" element={<NumAleatorioView />} />
         <Route path="shoppingcart" element={<ShoppingCartView />} />
+        <Route path="survey" element={<SurveyView />} />
       </Route>
     </Routes>
   );
