@@ -16,6 +16,7 @@ import ListaTareas from "../views/ListaTareas";
 import NumAleatorioView from "../views/NumAleatorioView";
 import ShoppingCartView from "../views/ShoppingCartView";
 import SurveyView from "../views/SurveyView";
+import RegisterView from "../views/RegisterView";
 
 export default function AppRoutes() {
   return (
@@ -35,6 +36,7 @@ export default function AppRoutes() {
         <Route path="numaleatorio" element={<NumAleatorioView />} />
         <Route path="shoppingcart" element={<ShoppingCartView />} />
         <Route path="survey" element={<SurveyView />} />
+        <Route path="register" element={<RegisterView />} />
       </Route>
     </Routes>
   );
