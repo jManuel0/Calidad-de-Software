@@ -35,13 +35,7 @@ export default function HomeContent() {
             Ver más
           </button>          
         </div>
-      </motion.div> 
-      <footer className="bg-gray-900 text-gray-400 text-center py-4 text-sm border-t border-gray-700">
-          <p>
-            © {new Date().getFullYear()} <span className="font-semibold text-white">Diery Valencia</span> · 
-            <a href="https://www.linkedin.com/in/diery-valencia/" className="hover:underline hover:text-blue-400 ml-1">Linkedin</a>
-          </p>
-      </footer>
-    </div>    
+      </motion.div>
+    </div>
   );
 }

@@ -37,8 +37,8 @@ export default function Sidebar() {
       key={route}
       to={route}
       className={({ isActive }) =>
-        `w-full text-left flex items-center gap-2 justify-between rounded-lg px-3 py-2 text-slate-700 dark:text-slate-300 
-         hover:bg-slate-50 dark:hover:bg-slate-800 
+        `w-full text-left flex items-center gap-2 justify-between rounded-lg px-3 py-2 text-slate-900 dark:text-slate-100
+         hover:bg-slate-50 dark:hover:bg-slate-800
          ${isActive ? "bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300" : ""}`
       }
     >
@@ -53,7 +53,7 @@ export default function Sidebar() {
         {/* Acordeón Main Items */}
         <button
           onClick={() => setOpenMain(!openMain)}
-          className="w-full text-left flex items-center justify-between rounded-lg px-3 py-2 text-slate-700 dark:text-slate-300 
+          className="w-full text-left flex items-center justify-between rounded-lg px-3 py-2 text-slate-900 dark:text-slate-100
                      hover:bg-slate-50 dark:hover:bg-slate-800 font-medium"
         >
           Menú Principal
@@ -64,7 +64,7 @@ export default function Sidebar() {
         {/* Acordeón Exercises */}
         <button
           onClick={() => setOpenExercises(!openExercises)}
-          className="w-full text-left flex items-center justify-between rounded-lg px-3 py-2 text-slate-700 dark:text-slate-300 
+          className="w-full text-left flex items-center justify-between rounded-lg px-3 py-2 text-slate-900 dark:text-slate-100
                      hover:bg-slate-50 dark:hover:bg-slate-800 font-medium"
         >
           Ejercicios - Jtest
