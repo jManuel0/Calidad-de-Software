@@ -9,7 +9,10 @@ export default function SpeechDemoView() {
 
   const synth = window.speechSynthesis;
 
+<<<<<<< HEAD
   // Poblar voces al inicio
+=======
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
   useEffect(() => {
     function populateVoices() {
       const allVoices = synth.getVoices();
@@ -32,7 +35,10 @@ export default function SpeechDemoView() {
     };
   }, [synth, selectedVoice]);
 
+<<<<<<< HEAD
   // Función para hablar
+=======
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
   const speak = (text: string) => {
     if (!("speechSynthesis" in window)) return;
     synth.cancel();
@@ -68,10 +74,21 @@ export default function SpeechDemoView() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Voz */}
           <div>
+<<<<<<< HEAD
             <label className="block text-sm font-medium text-slate-700 dark:text-slate-200">
               Voice
             </label>
             <select
+=======
+            <label
+              htmlFor="voiceSelect"
+              className="block text-sm font-medium text-slate-700 dark:text-slate-200"
+            >
+              Voice
+            </label>
+            <select
+              id="voiceSelect"
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
               className="mt-1 w-full rounded-md border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-100 px-3 py-2"
               value={selectedVoice}
               onChange={(e) => setSelectedVoice(e.target.value)}
@@ -86,10 +103,21 @@ export default function SpeechDemoView() {
 
           {/* Rate */}
           <div>
+<<<<<<< HEAD
             <label className="block text-sm font-medium text-slate-700 dark:text-slate-200">
               Rate
             </label>
             <input
+=======
+            <label
+              htmlFor="rateControl"
+              className="block text-sm font-medium text-slate-700 dark:text-slate-200"
+            >
+              Rate
+            </label>
+            <input
+              id="rateControl"
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
               type="range"
               min="0.5"
               max="2"
@@ -102,10 +130,21 @@ export default function SpeechDemoView() {
 
           {/* Pitch */}
           <div>
+<<<<<<< HEAD
             <label className="block text-sm font-medium text-slate-700 dark:text-slate-200">
               Pitch
             </label>
             <input
+=======
+            <label
+              htmlFor="pitchControl"
+              className="block text-sm font-medium text-slate-700 dark:text-slate-200"
+            >
+              Pitch
+            </label>
+            <input
+              id="pitchControl"
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
               type="range"
               min="0"
               max="2"

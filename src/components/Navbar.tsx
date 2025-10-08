@@ -23,14 +23,22 @@ const Navbar: React.FC = () => {
   };
 
   return (
+<<<<<<< HEAD
     <header className="h-14 sticky top-0 z-10 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+=======
+    <header className="h-14 sticky top-0 z-10 bg-white/70 dark:bg-slate-900/60 backdrop-blur border-b border-slate-200 dark:border-slate-800">
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
       <div className="container mx-auto px-4 h-full flex items-center justify-between">
         {/* Lado izquierdo: logo + marca */}
         <div className="flex items-center gap-2 font-semibold text-slate-800 dark:text-slate-100">
           <div className="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-emerald-500 text-white">
             U
           </div>
+<<<<<<< HEAD
           <span>UCC : Prácticas Desarrollo</span>
+=======
+          <span>UCC : Prácticas Desarrollo Multimedia</span>
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
         </div>
 
         {/* Lado derecho: botón de tema */}
@@ -48,4 +56,8 @@ const Navbar: React.FC = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Navbar;
+=======
+export default Navbar;
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a

@@ -118,8 +118,12 @@ export default function ThreeDemoView() {
       {/* Canvas container */}
       <div
         ref={stageRef}
+<<<<<<< HEAD
         className="rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm"
         style={{ height: "420px", position: "relative" }}
+=======
+        className="relative h-[420px] rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm"
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
       />
     </div>
   );

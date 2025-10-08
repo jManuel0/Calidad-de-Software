@@ -33,7 +33,11 @@ export default function GeometryExplorer() {
 
     // Geometría inicial
     const geometry = new THREE.BoxGeometry(1, 1, 1);
+<<<<<<< HEAD
     const material = new THREE.MeshStandardMaterial({ color: 0xffff });
+=======
+    const material = new THREE.MeshStandardMaterial({ color: 0x007bff });
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
     const cube = new THREE.Mesh(geometry, material);
     scene.add(cube);
 
@@ -122,4 +126,8 @@ export default function GeometryExplorer() {
       </div>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a

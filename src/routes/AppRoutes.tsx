@@ -8,6 +8,7 @@ import LayoutsView from "../views/LayoutsView";
 import SpeechDemoView from "../views/SpeechDemoView";
 import GeometryExplorer from "../views/GeometryExplorer";
 import SettingsView from "../views/SettingsView";
+<<<<<<< HEAD
 import TablasMul from "../views/TablasMul";
 import ConversorUnid from "../views/ConversorUnid";
 import ValidContrasena from "../views/ValidContrasena";
@@ -17,6 +18,8 @@ import NumAleatorioView from "../views/NumAleatorioView";
 import ShoppingCartView from "../views/ShoppingCartView";
 import SurveyView from "../views/SurveyView";
 import RegisterView from "../views/RegisterView";
+=======
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
 
 export default function AppRoutes() {
   return (
@@ -28,6 +31,7 @@ export default function AppRoutes() {
         <Route path="tts" element={<SpeechDemoView />} />
         <Route path="three_2" element={<GeometryExplorer />} />
         <Route path="settings" element={<SettingsView />} />
+<<<<<<< HEAD
         <Route path="tablasmul" element={<TablasMul />} />
         <Route path="conversorunid" element={<ConversorUnid />} />
         <Route path="validcontrasena" element={<ValidContrasena />} />
@@ -37,6 +41,8 @@ export default function AppRoutes() {
         <Route path="shoppingcart" element={<ShoppingCartView />} />
         <Route path="survey" element={<SurveyView />} />
         <Route path="register" element={<RegisterView />} />
+=======
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
       </Route>
     </Routes>
   );

@@ -14,7 +14,11 @@ export default function HomeContent() {
           viewBox="0 0 841.9 595.3"
           xmlns="http://www.w3.org/2000/svg"
         >
+<<<<<<< HEAD
           <g fill="#64181cff">
+=======
+          <g fill="#61DAFB">
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
             <path d="M421 296.5c0-25.6 20.8-46.4 46.4-46.4s46.4 20.8 46.4 46.4-20.8 46.4-46.4 46.4-46.4-20.8-46.4-46.4z"/>
             <path d="M421 183.5c-68.7 0-124.5 55.8-124.5 124.5s55.8 124.5 124.5 124.5 124.5-55.8 124.5-124.5S489.7 183.5 421 183.5zm0 219.8c-52.6 0-95.3-42.7-95.3-95.3s42.7-95.3 95.3-95.3 95.3 42.7 95.3 95.3-42.7 95.3-95.3 95.3z"/>
           </g>
@@ -33,9 +37,17 @@ export default function HomeContent() {
           </button>
           <button className="border border-indigo-600 text-indigo-600 bg-white px-6 py-3 rounded-2xl hover:bg-indigo-600 hover:text-white transition">
             Ver más
+<<<<<<< HEAD
           </button>          
+=======
+          </button>
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
         </div>
       </motion.div>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7cccc09a9aeb243f39e689741e8c48b54818139a
